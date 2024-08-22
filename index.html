@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body class="body">
+    <header class="header background ">
+        <article class="border">
+            logo
+        </article>
+        <nav class="menuInicio">
+            <ul class="menu1 ">
+                <li class="item">Inicio</li>
+                <li class="item">
+                    <a  href="registro.html" target="_blank" >
+                        Registro
+                    </a>
+                    
+                </a>
+                </li>
+                <li class="item">sobre nosotros</li>
+                <li class="item">
+                    <a href="#Lista">Listas</a>
+                </li>
+                <li class="item">
+                    <a href="registro.html" target="_blank">Parrafo2</a>
+                </li>
+                <li class="item">
+                    <a href="border.html">Border</a>
+                </li>
+
+            </ul>
+        </nav>
+        <nav class="border">
+            login
+        </nav>
+    </header>
+    <main class="main fondo">
+        <section class="encabezado">
+            <h1>Encabezado</h1>
+            <h2>Encabezado</h2>
+            <h3>Encabezado</h3>
+            <h4>Encabezado</h4>
+            <h5>Encabezado</h5>
+            <h6>Encabezado</h6>
+        </section>
+        <section class="border">
+            <h1><strong>PARRAFOS</strong></h1>
+            <p><strong>Lorem ipsum dolor sit amet consectetur</strong>, <i>adipisicing elit. Itaque laboriosam aliquam quidem ipsam ratione maxime obcaecati?</i> <del>Autem omnis aperiam itaque dolorem aliquam.</del> <small>Dolore qui aspernatur tenetur facilis ut in saepe.</small> </p>
+            <p> <ins>Lorem ipsum dolor sit amet consectetur adipisicing elit.</ins> <sub> Suscipit voluptas similique illo voluptates delectus</sub> rat ione ea accusantium rerum assumenda voluptatum, natus veritatis! Corporis itaque voluptatem officiis dolore, ipsa eligendi exercitationem.</p>
+            etiqueta para dcumentar codigo
+            <blockquote cite=
+            "https://www.pexels.com/es-es/">
+            Las mejores fotos de stock gratis, imágenes libres de regalías y vídeos compartidos por creadores.
+            </blockquote>
+        </section>
+        <section class="border">
+            <h1>
+                <a id="Lista"> Lista</a>
+                <a href="inincio"></a>
+            </h1>
+            <h2>Lista ordenada</h2>
+            <ol>
+               <li>1 item</li>
+               <li>2 item</li>
+               <li>3 item</li>
+               <li>4 item</li>
+               <li>5 item</li>
+            </ol>
+            <h3>Lista desordenada</h3>
+            <ul>
+                <li>item</li>
+                <li>item</li>
+                <li>item</li>
+                <li>item</li>
+                <li>item</li>
+            </ul>
+            <h2>Listas definidas</h2>
+            <dl>
+
+                <dt><strong>1 item </strong></dt>
+                <dt><i></i>descripcion</dt>
+                <dt><strong>2 item </strong></dt>
+                <dt>descripcion</dt>
+                <dt><strong>3 item </strong></dt>
+                
+
+            </dl>
+
+        </section>
+        <section>
+            <h1>Formulario</h1>
+
+            <form class="form">
+                <div>
+                    <label for="nombre">Ingrese nombre</label> <br>
+                    <input id="nombre" type="text" placeholder="Ingrese nombre" required>
+                </div>
+
+                <div>
+                    <label for="apellido">Ingrese apellido</label> <br>
+                    <input id="apellido" type="text">
+                </div>
+
+                <div>
+                    <fieldset>
+                        <legend>seleccione genero</legend>
+                        <label for="gender"></label> <br>
+                        <input type="radio" name="genero" value="masculino">Masculino
+                        <input type="radio" name="genero" value="femenino">Femenino
+                        <input type="radio" name="genero" value="otros">Otros
+                    </fieldset>
+                    
+                </div>
+
+                <div>
+                    <fieldset>
+                        <legend>seleccione hobie</legend>
+                        <label for="gender"></label> <br>
+                        <input type="checkbox" name="genero" value="masculino">Deportes
+                        <input type="checkbox" name="genero" value="femenino">Artes
+                        <input type="checkbox" name="genero" value="otros">Otros
+                    </fieldset>
+                    
+                </div>
+                <div>
+                    <label for="fecha">Fecha de nacimineto</label>
+                    <input type="data" name="fecha" id="fecha">
+                </div>
+
+                <div>
+                    <label for="pais">Rol</label>
+                    <select name="pais" id="pais">
+                        <option value="Colombia">Colombia</option>
+                        <option value="Ecuador">Ecuador</option>
+                        <option value="Chile">Chile</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="ciudad">Ingrese ciudad</label> <br>
+                    <input id="ciudad" type="text">
+                </div>
+                    
+                <div>
+                    <label for="mensaje">Escriba su mensaje</label> <br>
+                    <textarea name="mensaje" id="mensaje">Escriba aqui</textarea>
+                </div>
+                
+                <dir>
+                    <label for="documento">Subir documento</label>
+                    <input id="documento" type="file">
+                </dir>
+                
+                <div>
+                    <label for="cel">seleccione celular</label> <br>
+                    <input id="cel" type="text">
+                </div>
+                
+                <div>
+                    <label for="email">Ingrese su email</label> <br>
+                    <input id="email" type="email">
+                </div>
+                
+                <div>
+                    <label for="contra">Ingrese contraseña</label> <br>
+                    <input id="contra" type="password">
+                </div>
+
+                <button>Resgistrar</button>
+                
+            </form>
+        </section>
+        <section> 
+            <h1>Tablas</h1>
+            <table>
+                <caption class="border">Titulo Tabla</caption>
+                <thead> 
+                    <tr>
+                        <th>hora</th>
+                        <th>lunes</th>
+                        <th>Martes</th>
+                        <th>Miercoles</th>
+                        <th>Jueves</th>
+                        <th>Viernes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="border">7:00-9:00</td>
+                        <td class="border" rowspan="2">Etica</td>
+                        <td class="border">Algoritmos</td>
+                        <td class="border">Diseño Web</td>
+                        <td class="border" rowspan="2">Bases de datos</td>
+                        <td class="border">Matematicas</td>
+                    </tr>
+                    <tr>
+                        <td class="border">8:00-12:00</td>
+                        <td class="border">Algebra</td>
+                        <td class="border">Programacion</td>
+                        <td class="border">Teams</td>
+                    </tr>
+                    <td class="border" colspan="6">DESCANSO</td>
+                    <tr>
+                        <td class="border">8:00-12:00</td>
+                        <td class="border">Etica</td>
+                        <td class="border">Algebra</td>
+                        <td class="border">Programacion</td>
+                        <td class="border">Moviles</td>
+                        <td class="border">Teams</td>
+                    </tr>
+                 <tbody>
+                <tfooter>
+                        <tr>
+                            <th class="border">7:00-9:00</th>
+                            <th class="border">Etica</th>
+                            <th class="border">Algoritmos</th>
+                            <th class="border">Diseño Web</th>
+                            <th class="border">Bases de datos</th>
+                            <th class="border">Matematicas</th>
+                        </tr>
+
+                </tfooter>
+            </table>
+        </section>
+        <section>
+            <h1>multimedia</h1>
+            <article class="imagen">
+                <img class="titulo" src="img/person.jpg" alt="imagen">
+            </article>
+        </section>
+        <section>
+            <article class="border">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Jrg9KxGNeJY?si=jj6zIKcIm4nCTh6e" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </article>
+        </section>
+        <section class="imagen">
+            <audio>
+
+            </audio>
+        </section>
+
+   </main>
+
+    <footer class="footer">
+        <p> here is a quote from WWF website: </p>
+        <blockquote cite="https://mail.google.com/mail/u/0/?ogbl&hl=es_419&hl=es_419#inbox">
+            for 50 years Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, sint! Nihil consequatur nisi consequuntur dolor 
+        </blockquote>
+    </footer>
+</body>
+</html>

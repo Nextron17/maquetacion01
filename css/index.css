@@ -1,0 +1,72 @@
+.body{
+    background-color: rgb(167, 53, 53);
+    background-image: url(../img/person.jpg);
+}
+
+.header{
+    background-color: chartreuse;
+    height: 10vh;
+
+    display: flex;
+    justify-content: space-between;
+}
+.main{
+    background-color: rgb(215, 220, 210);
+    border: 1px solid chartreuse;
+   
+}
+
+.footer{
+    background-color: rgb(222, 233, 211);
+    border: 1px solid chartreuse;
+    height: 10vh;
+}
+
+
+
+.background{
+    background-color: coral;
+}
+.menuInicio{
+    width: 30vw;
+}
+.menu1{
+    display: flex;
+     justify-content: space-around;
+}
+
+.item {
+    list-style: none;
+}
+.border {
+    border: 1px solid blue;
+}
+.imagen{
+    width: 50%;
+    border: 1px solid red;
+    margin: auto;
+ }
+.titulo{
+    max-width: 10%;
+    min-width: 20%;
+}
+.form{
+    width: 40%;
+    margin: auto;
+    border: 1px solid green;
+    margin-top:  10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+}
+
+.fondo{
+    background-image:url(../img/car.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed ;
+}
